@@ -1,0 +1,37 @@
+var questions = [
+    'What gives you energy?',
+    'What did you learn yesterday?',
+    'What gives you hope?',
+    'What is stressing you out most right now?',
+    'What are you looking forward to?',
+    'List things you are grateful for that start with the letter r',
+    'What is going well in your life?',
+    'How are you feeling right now?',
+    'What makes your heart hurt?',
+    'What are you proud of?',
+    'Where is your safe place?',
+    'What makes you feel loved?',
+    'What makes you feel relaxed?',
+    'What makes you lose track of time?', 
+    'What makes you feel alive?',
+    'What do you hope to achieve in the professional world?',
+    'What do you hope people remember about you?',
+    'What do you wish you had the courage to do?',
+    'What scares you most?',
+    'What makes you feel productive?',
+    'How do you find peace?',
+    'What kind of person are you?',
+    'What are you waiting for?',
+    'What makes you feel brave?',
+    'What do you hope to accomplish in the next 5 years?',
+    'What makes you feel heard?',
+    'What is one big and scary dream you have?',
+    'Who do you love?',
+    'What is one thing you could be doing a better job at?',
+    'What calms you?',
+    'What are your biggest stressors?',
+    ]
+function newQuestion () {
+    var randomNumber = Math.floor(Math.random()* (questions.length));
+    document.getElementById('questionDisplay').innerHTML = questions [randomnumber];
+}
