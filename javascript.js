@@ -31,7 +31,7 @@ var questions = [
     'What calms you?',
     'What are your biggest stressors?',
     ]
-function newQuestion () {
+function newQuestion() {
     var randomNumber = Math.floor(Math.random() * (questions.length));
-    document.getElementById('questionDisplay').innerHTML = questions[randomnumber];
+    document.getElementById('questionDisplay').innerHTML = questions[randomNumber];
 }
