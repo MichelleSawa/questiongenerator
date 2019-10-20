@@ -32,6 +32,6 @@ var questions = [
     'What are your biggest stressors?',
     ]
 function newQuestion () {
-    var randomNumber = Math.floor(Math.random()* (questions.length));
+    var randomNumber = Math.floor(Math.random() * (questions.length));
     document.getElementById('questionDisplay').innerHTML = questions [randomnumber];
 }
