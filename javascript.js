@@ -33,7 +33,12 @@ var questions = [
     'What are you worried about right now?',
     'What is one thing you could be doing a better job at?',
     'What calms you?',
-    'What are your biggest stressors?',
+    'What makes you anxious?',
+    'If you had the day off today, how would you spend it?',
+    'How do you show that you care?',
+    'Who do you go to when you are afraid?',
+    'What things are you better off without?', 
+    '
     ]
 function newQuestion() {
     var randomNumber = Math.floor(Math.random() * (questions.length));
