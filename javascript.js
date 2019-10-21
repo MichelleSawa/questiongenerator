@@ -38,7 +38,6 @@ var questions = [
     'How do you show that you care?',
     'Who do you go to when you are afraid?',
     'What things are you better off without?', 
-    '
     ]
 function newQuestion() {
     var randomNumber = Math.floor(Math.random() * (questions.length));
